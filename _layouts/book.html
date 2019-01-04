@@ -18,13 +18,13 @@ layout: default
     {% endfor %}
 
     <div class="projects">
-      {% include project_tags.html %}
+      {% include book_tags.html %}
 
-      {% for i in site.data.projects %}
+      {% for i in site.data.books %}
       <div class="project-item project-outer" data-tags='{{ i.tags | jsonify | downcase }}'>
         <div class="project-inner">
-          <a href="/static/projects/{{ i.image }}" class="thickbox">
-            <div class="project-img bordered" style="background-image: url('/static/projects/{{ i.image }}');"></div>
+          <a href="/static/books/{{ i.image }}" class="thickbox">
+            <div class="project-img bordered" style="background-image: url('/static/books/{{ i.image }}');"></div>
           </a>
           {% assign p_url = nil %}
           {% for pr in p_array %}
@@ -37,7 +37,7 @@ layout: default
           {% if p_url %}
             <a class="project-detail" href="{{ p_url }}">
           {% endif %}
-            <h3 class="project-headlines">{{ i.name }}</h3>
+            <h3 class="project-headlines" style="height: 45px;">{{ i.name }}</h3>
           {% if p_url %}
             </a>
           {% endif %}
@@ -52,8 +52,11 @@ layout: default
             </div>
           </div>
           <div class="project-footer">
-            {% if i.url %}
-              <a href="{{ i.url }}" class="project-link" target="_blank"><i class="fa fa-globe"></i> View</a>
+            {% if i.download_url %}
+              <a href="{{ i.download_url }}" class="project-link" target="_blank"><i class="fa fa-download"></i> Download</a>
+            {% endif %}
+            {% if i.buy_url %}
+              <a href="{{ i.buy_url }}" class="project-link" target="_blank"><i class="fa fa-cart"></i> Buy</a>
             {% endif %}
             <span class="project-timeline">{{ i.date }}</span>
           </div>

@@ -1,11 +1,11 @@
 title: Stack Problems
 description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
+author: Harshal Bhakta
+github: https://github.com/harshalbhakta
+about: I am the co-founder of TeachMore.
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+avatar_url: /static/img/harshal-profile.jpg
 
 enableTags: true
 tagarray: []
@@ -17,29 +17,33 @@ collections:
 
 social:
     - icon: fa-facebook
-      link: "#"
+      link: "https://www.facebook.com/harshal.bhakta"
     - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
+      link: "https://twitter.com/harsha_bhakta"
     - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
+      link: "https://www.linkedin.com/in/harshal-bhakta-55681216/"
     - icon: fa-stack-exchange
-      link: "#"
+      link: "https://stackexchange.com/users/1733229/harshal-bhakta"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/harshalbhakta"
 
 share:
-  twitter_username: agusmakmun6
+  twitter_username: harshalbhakta
   fb_appid: 1749788565247320
 
 urls:
     - text: About Me
       url: /about/
+    - text: Articles
+      url: /articles/
+    - text: Books
+      url: /books/
     - text: My Projects
       url: /projects/
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://harshalbhakta.com"
 baseurl: ""
 paginate: 20
 per_page: 20

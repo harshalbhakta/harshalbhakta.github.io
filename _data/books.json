@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Launch",
+    "author": "Product School",
+    "image": "launch.jpg",
+    "url": "https://www.productschool.com/launch-book/",
+    "download_url": "https://assets.productschool.com/wp-content/uploads/2018/12/19155502/launch-successful-roadmap-product-management-v4.pdf",
+    "date": "29-Dec-2018",
+    "tags": ["Free","Product Management"]
+  },
+  {
+    "name": "Ship It",
+    "author": "Product School",
+    "image": "ship-it.jpg",
+    "url": "https://www.productschool.com/ship-it-book/",
+    "download_url": "https://assets.productschool.com/wp-content/uploads/2018/12/12085135/Ship-It-Silicon-Valley-Product-Managers-Reveal-All-Book-v1.pdf",
+    "date": "29-Dec-2018",
+    "tags": ["Free","Product Management"]
+  },
+  {
+    "name": "The Hard Thing about Hard Thing",
+    "author": "Ben Horowitz",
+    "image": "hard-things.jpg",
+    "url": "https://www.amazon.in/Hard-Thing-about-Building-Business/dp/0062273205",
+    "buy_url": "https://www.amazon.in/Hard-Thing-about-Building-Business/dp/0062273205",
+    "date": "29-Dec-2018",
+    "tags": ["Entrepreneurship","Business"]
+  }
+]
