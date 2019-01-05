@@ -38,10 +38,8 @@ urls:
       url: /articles/
     - text: Books
       url: /books/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    - text: Tools
+      url: /tools/
 
 url: "https://harshalbhakta.com"
 baseurl: ""

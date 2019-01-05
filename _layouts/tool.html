@@ -1,0 +1,66 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <hr />
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+
+    {% assign p_array = "" | split:"|"  %}
+    {% for project in site.project %}
+      {% capture p_slug %}{{ project.url | split:"/" | last }},{{ project.url }}{% endcapture %}
+      {% assign p_slug_arr = p_slug | split:"," %}
+      {% assign p_array = p_array | push: p_slug_arr  %}
+    {% endfor %}
+
+    <div class="projects">
+      {% include tool_tags.html %}
+
+      {% for tool in site.data.tools %}
+      <div class="project-item" data-tags='{{ tool.tags | jsonify | downcase }}'>
+
+        {% if tool_url == nil %}{% assign tool_url = tool.url %}{% endif %}
+        {% if tool_url %}
+          <a class="project-detail" href="{{ tool_url }}">
+        {% endif %}
+          <h3 class="project-headlines">{{ tool.name }}</h3>
+        {% if tool_url %}
+          </a>
+        {% endif %}
+
+        <p>
+        <small>
+        {% if author_url == nil %}{% assign author_url = tool.author_url %}{% endif %}
+        {% if author_url %}
+          by
+          <a class="project-detail" href="{{ author_url }}">
+        {% endif %}
+          <span class="project-headlines">{{ tool.author }}</span>
+        {% if author_url %}
+          </a>
+        {% endif %}
+        </small>
+        </p>
+
+        <p>{{ tool.description }}</p>
+
+        <div class="project-content">
+          <div class="tag-holder">
+            {% if tool.tags %}
+              {% for j in tool.tags %}
+                <span class="tags tag-filter" data-tag="{{ j | downcase }}"><a href="#{{ j }}">{{ j }}</a></span>
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div><!-- project-content -->
+
+      </div>
+      <hr>
+      {% endfor %}
+    </div>
+  </div>
+</article>
