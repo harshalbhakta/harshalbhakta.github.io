@@ -25,5 +25,14 @@
     "buy_url": "https://www.amazon.in/Hard-Thing-about-Building-Business/dp/0062273205",
     "date": "29-Dec-2018",
     "tags": ["Entrepreneurship","Business"]
+  },
+  {
+    "name": "How to Build a Career in Tech",
+    "author": "Product Hunt",
+    "image": "how-to-build-a-career-in-tech.jpg",
+    "url": "https://books.producthunt.com",
+    "download_url": "https://books.producthunt.com/HowToBuildaCareerinTech.pdf",
+    "date": "5-Jan-2019",
+    "tags": ["Tech","Free"]
   }
 ]
