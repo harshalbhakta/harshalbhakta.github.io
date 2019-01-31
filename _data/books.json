@@ -33,6 +33,15 @@
     "url": "https://books.producthunt.com",
     "download_url": "https://books.producthunt.com/HowToBuildaCareerinTech.pdf",
     "date": "5-Jan-2019",
-    "tags": ["Tech","Free"]
+    "tags": ["Free","Tech"]
+  },
+  {
+    "name": "The Growth Handbook",
+    "author": "Intercom",
+    "image": "growth-handbook.jpg",
+    "url": "https://www.intercom.com/books/growth-handbook",
+    "download_url": "https://marketing.intercomcdn.com/assets/the-growth-handbook/v1/The-Growth-Handbook-by-Intercom.pdf",
+    "date": "5-Jan-2019",
+    "tags": ["Free","SAAS","Growth"]
   }
 ]
