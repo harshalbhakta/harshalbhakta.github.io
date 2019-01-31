@@ -38,6 +38,8 @@ urls:
       url: /articles/
     - text: Books
       url: /books/
+    - text: Decks
+      url: /decks/
     - text: Tools
       url: /tools/
 
