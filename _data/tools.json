@@ -14,5 +14,13 @@
     "author_url": "https://andrew.hedges.name",
     "url": "https://andrew.hedges.name/experiments/aspect_ratio/",
     "tags": ["Development","Image Editing"]
+  },
+  {
+    "name": "TerminalView",
+    "description": "Terminal inside Sublime Text 3 view",
+    "author": "Jesper Wramberg",
+    "author_url": "https://github.com/Wramberg",
+    "url": "https://github.com/Wramberg/TerminalView",
+    "tags": ["Development","Sublime Text"]
   }
 ]
