@@ -1,5 +1,14 @@
 [
   {
+    "name": "Intercom on Onboarding (Second Edition)",
+    "author": "Intercom",
+    "image": "intercom-on-onboarding.jpg",
+    "url": "https://www.intercom.com/books/onboarding",
+    "download_url": "https://marketing.intercomcdn.com/assets/onboarding/v2/Intercom_on_Onboarding_v2.pdf",
+    "date": "22-May-2019",
+    "tags": ["Free","User Onboarding"]
+  },
+  {
     "name": "Launch",
     "author": "Product School",
     "image": "launch.jpg",
