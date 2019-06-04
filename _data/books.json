@@ -1,5 +1,14 @@
 [
   {
+    "name": "The Growth Playbook 2018",
+    "author": "Clear Brain.com",
+    "image": "growth-playbook.jpg",
+    "url": "https://playbook.clearbrain.com",
+    "download_url": "https://clear-brain.firebaseapp.com/clearbrain-growth-playbook-2018.pdf",
+    "date": "5-Jun-2019",
+    "tags": ["Free","SAAS","Growth"]
+  },
+  {
     "name": "Intercom on Onboarding (Second Edition)",
     "author": "Intercom",
     "image": "intercom-on-onboarding.jpg",
