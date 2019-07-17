@@ -27,7 +27,7 @@
     "name": "FollowThatPage",
     "description": "Follow That Page is a change detection and notification service that sends you an email when your favourite web pages have changed.",
     "author": "Onno Zweers",
-    "author_url": "https://github.com/onnozweers
+    "author_url": "https://github.com/onnozweers",
     "url": "https://www.followthatpage.com",
     "tags": ["Web"]
   }
