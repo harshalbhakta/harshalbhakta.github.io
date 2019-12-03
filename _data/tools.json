@@ -30,5 +30,13 @@
     "author_url": "https://github.com/onnozweers",
     "url": "https://www.followthatpage.com",
     "tags": ["Web"]
+  },
+  {
+    "name": "Really Good Emails",
+    "description": "The web’s best, and most attractive 😉, curated collection of emails, showing off both design and code.",
+    "author": "Team RGE",
+    "author_url": "https://reallygoodemails.com/about/",
+    "url": "https://reallygoodemails.com",
+    "tags": ["Email","Marketing"]
   }
 ]
