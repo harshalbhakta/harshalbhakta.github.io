@@ -1,5 +1,14 @@
 [
   {
+    "name": "Kubernetes for Full-Stack Developers",
+    "author": "Digital Ocean",
+    "image": "kubernetes-for-full-stack-developers.jpg",
+    "url": "https://www.digitalocean.com/community/books/digitalocean-ebook-kubernetes-for-full-stack-developers",
+    "download_url": "https://assets.digitalocean.com/books/kubernetes-for-full-stack-developers.pdf",
+    "date": "27-Feb-2020",
+    "tags": ["Free","Kubernetes"]
+  },
+  {
     "name": "The Growth Playbook 2018",
     "author": "Clear Brain.com",
     "image": "growth-playbook.jpg",
