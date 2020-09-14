@@ -38,5 +38,13 @@
     "author_url": "https://reallygoodemails.com/about/",
     "url": "https://reallygoodemails.com",
     "tags": ["Email","Marketing"]
-  }
+  },
+  {
+    "name": "Really Good Texts",
+    "description": "Peruse ridiculously good text marketing",
+    "author": "Alicia Thomas, Adam Turner and Alex Beller",
+    "author_url": "https://reallygoodtexts.com",
+    "url": "https://reallygoodtexts.com",
+    "tags": ["SMS","Marketing"]
+  } 
 ]
