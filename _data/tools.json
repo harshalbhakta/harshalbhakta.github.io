@@ -46,5 +46,13 @@
     "author_url": "https://reallygoodtexts.com",
     "url": "https://reallygoodtexts.com",
     "tags": ["SMS","Marketing"]
-  } 
+  },
+  {
+    "name": "NGINXConfig",
+    "description": "The easiest way to configure a performant, secure, and stable NGINX server.",
+    "author": "DigitalOcean",
+    "author_url": "https://www.digitalocean.com",
+    "url": "https://www.digitalocean.com/community/tools/nginx",
+    "tags": ["NGINX"]
+  }
 ]
